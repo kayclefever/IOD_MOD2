@@ -1,9 +1,9 @@
 /* I. Selectors */
 /* Put styles for questions 1.1, 1.2, 1.3 and 1.4 here */
- {
-  margin: 15px;
-  padding: 25px;
-  border: 50px solid dark green;
+* {
+  margin: 20px 0;
+  padding: 20px;
+  border: 1px solid black;
 }
 
 .style-me1 {
@@ -101,10 +101,25 @@ a:focus {
   color: yellow;
   text-decoration: line-through;
 }
-a:visited: {
+a:visited {
   color: green;
-  font-style: "Times New Roman", serif;
+  font-style: "Courier New", monospace;
 }
 
 /* VI. calc() */
 /* Put styles for questions 1-3 here */
+.calc-style {
+  width: 100vw;
+  background-color: lightblue;
+  width: calc(100vw - 100px);
+}
+.fixed-width-col {
+  width: 350px;
+  display: inline-block;
+  width: calc(100% - 700px);
+}
+.fluid-col {
+  width: 350px;
+  display: inline-block;
+  width: calc(100%- 700px);
+}
