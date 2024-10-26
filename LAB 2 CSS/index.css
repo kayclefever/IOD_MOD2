@@ -28,22 +28,83 @@ div p {
 /* Put styles for questions 1-8 here */
 .box {
   margin: 2em 55px 30px 34px;
-  padding: 20px 36px 6em 20px;
+  padding: 100px 80px 6em 100px;
   background-color: lightblue;
-  height: 14vh !important;
-  width: 80vw !important;
+  height: 10vh !important;
+  width: 10vw !important;
   border-style: solid;
   border-color: pink;
   border-width: 10px;
+  box-sizing: border-box;
+  box-sizing: content-box;
+  overflow: scroll;
+  outline: lightcyan solid;
+  outline-width: 10px;
+  border-radius: 50%;
+  background-image: url("./assets/images/img1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
+
 /* III. Positioning */
 /* Put styles for questions 1-3 here */
+.position-absolute {
+  position: absolute;
+  top: 0px;
+  left: 200px;
+  right: 300px;
+  background-color: darkgreen;
+}
+.position-relative {
+  position: relative;
+  background-color: lightgreen;
+}
+.position-sticky {
+  position: sticky;
+  background-color: darkorchid;
+  top: 0;
+}
 
 /* IV. Styling text */
 /* Put styles for questions 1-10 here */
+.text-style {
+  color: darkred;
+  font-size: 1.5em;
+  line-height: 26px;
+  font-weight: 400;
+  font-family: "Creepster", system-ui;
+  text-align: justify;
+  letter-spacing: 3px;
+  word-spacing: 15px;
+  text-transform: initial;
+  text-decoration: line-through;
+}
 
 /* V. Styling links */
 /* Put styles for questions 1-3 here */
+a:link {
+  color: pink;
+  font-size: 30px;
+  font-weight: 800;
+  text-decoration: underline overline;
+}
+a:hover {
+  color: hotpink;
+  text-decoration: overline;
+}
+a:active {
+  color: purple;
+  text-decoration: underline;
+}
+a:focus {
+  color: yellow;
+  text-decoration: line-through;
+}
+a:visited: {
+  color: green;
+  font-style: "Times New Roman", serif;
+}
 
 /* VI. calc() */
 /* Put styles for questions 1-3 here */
