@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head> </head>
+
+  <body>
+    <form method="POST" action="http://127.0.0.1:5500/form">
+      <div>
+        <label for="firstname">First name:</label>
+        <input type="text" id="firstname" name="firstname" />
+      </div>
+      <div>
+        <label for="lastname">Last name:</label>
+        <input type="text" id="lastname" name="lastname" />
+      </div>
+      <br />
+      <p>What is your favorite coding language?</p>
+      <div>
+        <label for="HTML">HTML</label>
+        <input type="radio" id="html" name="codinglanguage" value="HTML" />
+      </div>
+      <div>
+        <label for="JavaScript">JavaScript</label>
+        <input
+          type="radio"
+          id="javascript"
+          name="codinglanguage"
+          value="JavaScript"
+        />
+      </div>
+      <div>
+        <label for="CSS">CSS</label>
+        <input type="radio" id="CSS" name="codinglanguage" value="CSS" />
+      </div>
+      <br />
+      <p>What kind of vehicle do you own?</p>
+      <div>
+        <label for="SUV">SUV</label>
+        <input type="checkbox" id="SUV" name="SUV" value="SUV" />
+        <label for="Sedan">Sedan</label>
+        <input type="checkbox" id="Sedan" name="Sedan" value="Sedan" />
+        <label for="Truck">Truck</label>
+        <input type="checkbox" id="Truck" name="Truck" value="Truck" />
+      </div>
+      <label for="carbrand">Brand of your current vehicle:</label>
+      <select name="carbrand" id="carbrand">
+        <option value="Ford">Ford</option>
+        <option value="Honda">Honda</option>
+        <option value="Lexus">Lexus</option>
+        <option value="Jeep">Jeep</option>
+        <option value="Other">Other</option>
+      </select>
+      <button type="submit">Submit form</button>
+    </form>
+    <header>
+      <nav>
+        <!-- works like <a href="/index.html">Home</a> -->
+        <a href="http://127.0.0.1:5500/LAB%202.1%20HTML/index.html">Home</a>
+        <a href="http://127.0.0.1:5500/LAB%202.1%20HTML/form.html">Form Page</a>
+      </nav>
+    </header>
+
+    <main></main>
+
+    <footer>Copyright &copy; 2024</footer>
+  </body>
+</html>
