@@ -1,0 +1,49 @@
+/* I. Selectors */
+/* Put styles for questions 1.1, 1.2, 1.3 and 1.4 here */
+ {
+  margin: 15px;
+  padding: 25px;
+  border: 50px solid dark green;
+}
+
+.style-me1 {
+  color: red;
+}
+
+#style-me2 {
+  color: blue;
+}
+
+/* Put styles for questions 2.1 and 2.2 here */
+div p {
+  background-color: red;
+}
+.my-children-are-styled > p {
+  background-color: lightgreen;
+}
+.my-descendants-are-styled > p {
+  background-color: lightgreen;
+}
+/* II. Box model and common properties */
+/* Put styles for questions 1-8 here */
+.box {
+  margin: 2em 55px 30px 34px;
+  padding: 20px 36px 6em 20px;
+  background-color: lightblue;
+  height: 14vh !important;
+  width: 80vw !important;
+  border-style: solid;
+  border-color: pink;
+  border-width: 10px;
+}
+/* III. Positioning */
+/* Put styles for questions 1-3 here */
+
+/* IV. Styling text */
+/* Put styles for questions 1-10 here */
+
+/* V. Styling links */
+/* Put styles for questions 1-3 here */
+
+/* VI. calc() */
+/* Put styles for questions 1-3 here */
