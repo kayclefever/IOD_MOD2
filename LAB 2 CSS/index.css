@@ -41,7 +41,7 @@ div p {
   outline: lightcyan solid;
   outline-width: 10px;
   border-radius: 50%;
-  background-image: url("./assets/images/img1.png");
+  background-image: url("assets/img1.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -116,10 +116,10 @@ a:visited {
 .fixed-width-col {
   width: 350px;
   display: inline-block;
-  width: calc(100% - 700px);
+  width: calc(50% - 250px);
 }
 .fluid-col {
   width: 350px;
   display: inline-block;
-  width: calc(100%- 700px);
+  width: calc(50%- 250px);
 }
